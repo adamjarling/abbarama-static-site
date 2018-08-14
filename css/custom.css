@@ -1,0 +1,88 @@
+#main a,
+#footer p a {
+  text-decoration: underline;
+  color: #be9a2a;
+}
+#main a:hover,
+#footer p a:hover {
+  text-decoration: none;
+}
+
+.page-section {
+  margin-bottom: 40px;
+}
+
+.page-section h1,
+.page-section h2,
+.page-section h3,
+.page-section h4 {
+  margin: 1em 0;
+}
+
+.page-section p {
+  margin-bottom: 20px;
+}
+
+#video iframe {
+  max-width: 100%;
+}
+
+.artwork-page .item-list {
+  border-top: 0;
+}
+
+.custom-social-media {
+  font-size: 21px;
+}
+
+.tools-nav li {
+  margin: 0 0 0 40px;
+}
+
+.center {
+  text-align: center;
+}
+
+.contain-photo {
+  max-width: 100%;
+  height: auto;
+}
+
+.about-photo {
+  margin-top: 20px;
+}
+
+.tko-logo {
+  width: 200px;
+  height: auto;
+}
+
+.hob-flyer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.hob-flyer img {
+  display: inline-block;
+  margin-bottom: 40px;
+  max-width: 100%;
+}
+
+.show-announcements {
+  text-align: center;
+}
+
+.show-announcements .announcement {
+  margin-bottom: 20px;
+}
+
+.show-announcements h3 {
+  margin-bottom: 20px;
+}
+
+.show-announcements button {
+  margin: 20px 0;
+  display: inline-block;
+}
