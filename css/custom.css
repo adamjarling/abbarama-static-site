@@ -57,6 +57,11 @@
   height: auto;
 }
 
+.tko-logo-footer {
+  width: 120px;
+  height: auto;
+}
+
 .hob-flyer {
   display: flex;
   flex-direction: column;
@@ -72,6 +77,7 @@
 
 .show-announcements {
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .show-announcements .announcement {
@@ -85,4 +91,34 @@
 .show-announcements button {
   margin: 20px 0;
   display: inline-block;
+}
+
+/* Shows page */
+.details-info .description p {
+  padding-bottom: 20px;
+}
+
+.details-info.shade {
+  background: #efefef;
+  padding: 20px 0;
+}
+
+#main .details-info a {
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+#main.shows {
+  padding-top: 20px;
+}
+
+/* Buttons */
+a.btn.auto-size {
+  width: auto;
+  height: auto;
+  display: inline-block;
+  padding: 0px 20px;
+  color: #fff !important;
+  text-decoration: none !important;
 }
